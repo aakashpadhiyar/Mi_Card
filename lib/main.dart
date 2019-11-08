@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
                 height: double.infinity,
                 width: 100.0,
                 color: Colors.red,
-                child: Text('container: 1'),
               ),
               Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -27,7 +26,6 @@ class MyApp extends StatelessWidget {
                       width: 100.0,
                       height: 100.0,
                       color: Colors.yellow,
-                      child: Text('container: 2'),
                     ),
                     Container(
                       width: 100.0,
@@ -39,7 +37,6 @@ class MyApp extends StatelessWidget {
                 width: 100.0,
                 height: double.infinity,
                 color: Colors.blue,
-                child: Text('container: 3'),
               )
             ],
           ),
